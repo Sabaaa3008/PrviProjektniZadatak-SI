@@ -12,6 +12,10 @@ body {
     color: gold;
 }
 
+main {
+    width: 80%;
+}
+
 header {
     padding: 40px;
 }
@@ -53,8 +57,9 @@ p {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 600px;
+    width: 60%;
     margin: 40px auto;
+    max-width: 600px;
 }
 
 .kontakt input,
@@ -92,6 +97,7 @@ footer {
     justify-content: center;
     gap: 40px;
     margin-bottom: 20px;
+    font-size: 12px;
 }
 
 .icon {
