@@ -80,3 +80,19 @@ footer {
 .icon {
     margin-right: 5px;
 }
+
+@media (max-width: 768px) {
+    .mreza-projekata {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .mreza-projekata {
+        grid-template-columns: 1fr;
+    }
+
+    .kontakt form {
+        width: 90%;
+    }
+}
