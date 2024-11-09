@@ -1,0 +1,1 @@
+Otvorite fullscreen ;)
