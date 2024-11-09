@@ -5,6 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crveni križ - Crveni Kriz</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        
+        body {
+            background-color: red;
+            color: yellow;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        header h1 {
+            margin-top: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 40px;
+        }
+
+        .left-image {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: 250px; 
+            height: auto;
+        }
+
+        .right-image {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 250px; 
+            height: auto;
+        }
+
+        a {
+            display: block;
+            margin-top: 20px;
+            color: yellow;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: white;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -13,8 +59,11 @@
     
     <main>
         <p>Crveni križ je međunarodna humanitarna organizacija koja pruža pomoć ljudima u kriznim situacijama, kao što su prirodne katastrofe, sukobi i epidemije. Organizacija pomaže u spašavanju života, pružanju medicinske njege i osnovnih životnih potrepština onima kojima je to najpotrebnije. Takođe, Crveni križ promoviše humanitarne vrednosti i edukaciju iz oblasti prve pomoći.</p>
-        <img src="crveni-kriz.png.jpg" alt="Logo Crvenog križa" width="200">
-        <img src="crveni-kriz1.png.png" alt="Ja" width="200">
+        
+        <!-- Dodavanje slika s klasama za pozicioniranje -->
+        <img src="crveni-kriz.png.jpg" alt="Logo Crvenog križa" class="left-image">
+        <img src="crveni-kriz1.png.png" alt="Ja" class="right-image">
+        
         <a href="index.html">Nazad na početnu</a>
     </main>
 </body>
