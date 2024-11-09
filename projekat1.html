@@ -6,7 +6,7 @@
     <title>Crveni križ - Crveni Kriz</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        
+        /* Dodavanje CSS stilova direktno u HTML */
         body {
             background-color: red;
             color: yellow;
@@ -23,19 +23,21 @@
             margin-bottom: 40px;
         }
 
-        .left-image {
-            position: absolute;
-            top: 20px;
-            left: 20px;
-            width: 250px; 
-            height: auto;
-        }
-
-        .right-image {
+        /* Stil za sliku u gornjem desnom uglu */
+        .top-right-image {
             position: absolute;
             top: 20px;
             right: 20px;
-            width: 250px; 
+            width: 500px; /* Duplo veća širina */
+            height: auto;
+        }
+
+        /* Stil za sliku u donjem lijevom uglu */
+        .bottom-left-image {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            width: 500px; /* Duplo veća širina */
             height: auto;
         }
 
@@ -60,9 +62,11 @@
     <main>
         <p>Crveni križ je međunarodna humanitarna organizacija koja pruža pomoć ljudima u kriznim situacijama, kao što su prirodne katastrofe, sukobi i epidemije. Organizacija pomaže u spašavanju života, pružanju medicinske njege i osnovnih životnih potrepština onima kojima je to najpotrebnije. Takođe, Crveni križ promoviše humanitarne vrednosti i edukaciju iz oblasti prve pomoći.</p>
         
-        <!-- Dodavanje slika s klasama za pozicioniranje -->
-        <img src="crveni-kriz.png.jpg" alt="Logo Crvenog križa" class="left-image">
-        <img src="crveni-kriz1.png.png" alt="Ja" class="right-image">
+        <!-- Slika u gornjem desnom uglu -->
+        <img src="crveni-kriz.png.jpg" alt="Logo Crvenog križa" class="top-right-image">
+        
+        <!-- Slika u donjem lijevom uglu -->
+        <img src="crveni-kriz1.png.png" alt="Ja" class="bottom-left-image">
         
         <a href="index.html">Nazad na početnu</a>
     </main>
