@@ -1,5 +1,5 @@
 
- body {
+body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     margin: 0;
@@ -10,6 +10,10 @@
 header {
     padding: 20px;
     color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
@@ -26,7 +30,7 @@ p {
 
 .mreza-projekata {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 10px;
     padding: 20px;
     justify-items: center;
@@ -49,7 +53,6 @@ p {
     gap: 10px;
     width: 300px;
     margin: 20px auto;
-    justify-content: center;
 }
 
 .kontakt input,
@@ -93,6 +96,10 @@ footer {
     .mreza-projekata {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .kontakt form {
+        width: 90%;
+    }
 }
 
 @media (max-width: 480px) {
@@ -101,6 +108,6 @@ footer {
     }
 
     .kontakt form {
-        width: 90%;
+        width: 100%;
     }
 }
