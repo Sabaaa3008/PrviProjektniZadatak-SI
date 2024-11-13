@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color:rgb(0, 204, 255);
+    background-color:red;
     margin: 0;
     padding: 0;
     display: flex;
@@ -38,7 +38,7 @@ p {
 }
 
 .projekat-element {
-    background-color: rgb(0, 204, 255);
+    background-color: red;
     color: white;
     height: 160px;
     display: flex;
@@ -64,12 +64,12 @@ p {
     padding: 20px;
     font-size: 2em;
     text-align: center;
-    color: rgb(0, 204, 255);
+    color: red;
 }
 
 .kontakt button {
     background-color: white;
-    color: rgb(0, 204, 255);
+    color: red;
     border: none;
     cursor: pointer;
 }
