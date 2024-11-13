@@ -9,7 +9,7 @@ body {
     justify-content: center;
     min-height: 100vh;
     text-align: center;
-    color: white;
+    color: gold;
 }
 
 header {
@@ -39,7 +39,7 @@ p {
 
 .projekat-element {
     background-color: red;
-    color: white;
+    color: gold;
     height: 160px;
     display: flex;
     justify-content: center;
@@ -68,7 +68,7 @@ p {
 }
 
 .kontakt button {
-    background-color: white;
+    background-color: gold;
     color: red;
     border: none;
     cursor: pointer;
